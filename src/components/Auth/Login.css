@@ -1,0 +1,55 @@
+
+
+/* Login.css */
+.LoginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.OuterContainer {
+    padding: 40px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.InnerLoginContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.EmailContainer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+.PasswordContainer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+.SubmitContainer{
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
