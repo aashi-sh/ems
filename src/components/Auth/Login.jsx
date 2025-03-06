@@ -32,7 +32,7 @@ const Login = () =>{
 
                     <input
                     value={email}
-                    onChange={(e)=>{setEmail(e.target.value)}}
+                    onChange={(e) => {setEmail(e.target.value)}}
                     className="EmailContainer"
                     type="email" 
                     placeholder="Enter the Email"/>
@@ -40,7 +40,7 @@ const Login = () =>{
                     
                     <input
                     value={password}
-                    onChange={(e)=>{setPassword(e.target.value)}} 
+                    onChange={(e) => {setPassword(e.target.value)}} 
                     maxLength={8}
                     className="PasswordContainer"
                     type="password" 
